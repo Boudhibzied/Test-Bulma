@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <style >
+      .center, .center-column, .top, .right, .bottom, .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .center-column {
+          flex-direction: column;
+      }
+      .top    { align-items:     flex-start; }
+      .right  { justify-content: flex-end;   }
+      .bottom { align-items:     flex-end;   }
+      .left   { justify-content: flex-start; }
+
+      .single-spaced, .single-spaced * {
+          line-height: 1;
+      }
+
+      @media (max-width:  768px) { 
+      .article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .article-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      }
+    </style>
+  </head>
+  <body>
+     <!-- .section -->
+  <section class="hero" style="background-color: #FF554B; border-color: #707070">
+    
+    <!-- .hero-head -->
+      <nav class="hero-head">
+        <div class=" columns is-mobile is-marginless  has-text-weight-bold">
+          <div id="a" class="column left">
+            <figure class="image">
+              <img src="img/logo.png">
+            </figure>
+          </div>
+          <div id="b" class="column right ">
+            <p class="navbar-item  has-text-black ">Jewelery</p>
+            <p class="navbar-item  has-text-black ">Books</p>
+            <p class="navbar-item  has-text-black ">Grocery</p>
+            <p class="navbar-item  has-text-black ">Grocery</p>
+            <p class="navbar-item  has-text-black ">movie</p>
+          </div>
+        </div>
+      </nav>
+      <!-- /.hero-head -->
+
+      <!-- .hero-body -->
+      <header class="hero-body">
+        <div class=" has-text-centered">
+          <h1 class="title is-2 has-text-white ">Choose your side</h2>
+          <h2 class="subtitle is-8  has-text-white">Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut<br> labore et dolore magna aliquyam erat, sed diam.</h1>   
+        </div>
+      </header>
+      <!-- /.hero-body -->
+      <figure class="is-overlay image center">
+        <img src="img/falcon@2x.png" style="max-width: 40%;">
+      </figure>
+  </section>
+   <!-- /.section -->
+  <!-- .section -->
+  <div class="section  is-paddingless-horizontal ">
+      <h1 class="title center is-2">
+        How it works
+      </h1>
+      <h2 class="subtitle center is-5 has-text-weight-bold">
+        Quiere la boca exhausta vid, kiwi, piña y fugaz jamón.<br> Fabio me exige, sin tapujos, que añada cerveza al<br> whisky. Jovencillo emponzoñado de whisky, ¡qué
+      </h2>
+  </div>
+    <!-- /.section -->
+    <!-- .columns -->
+    <figure class="columns is-desktop is-marginless ">
+      <div class="column">
+        <div class=" center">
+          <a><img src="img/Rectangle 1@2x.png"></a>
+        </div>
+        <figcaption >
+          <h1 class="title center is-2">
+            Mckenna
+          </h1>
+          <h2 class="subtitle center is-5 has-text-weight-bold">
+            Non corporis voluptas<br> ut necessitatibus aut<br> eaque qui ea magni.
+          </h2>
+        </figcaption>
+      </div>
+      <div class="column ">
+        <div class=" center">
+          <a><img src="img/Rectangle 1-1@2x.png"></a>
+        </div>
+        <figcaption >
+          <h1 class="title center is-2">
+            Mckenna
+          </h1>
+          <h2 class="subtitle center is-5 has-text-weight-bold ">
+            Non corporis voluptas<br> ut necessitatibus aut<br> eaque qui ea magni.
+          </h2>
+        </figcaption>
+      </div>
+      <div class="column">
+        <div class=" center">
+          <a><img src="img/Rectangle 1-2@2x.png"></a>
+        </div>
+        <figcaption >
+          <h1 class="title center is-2">
+            Mckenna
+          </h1>
+          <h2 class="subtitle center is-5 has-text-weight-bold">
+            Non corporis voluptas<br> ut necessitatibus aut<br> eaque qui ea magni.
+          </h2>
+        </figcaption>
+      </div>
+    </figure>
+    <!-- /.columns -->
+    <!-- .section -->
+		<section class="section has-background-light">
+      <div class="content  is-paddingless-horizontal">
+        <h1 class="title center is-2">
+          Benefits
+        </h1>
+        <h2 class="subtitle center is-5">
+          Quiere la boca exhausta vid, kiwi, piña y fugaz jamón.<br> Fabio me exige, sin tapujos, que añada cerveza al<br> whisky. Jovencillo emponzoñado de whisky, ¡qué
+        </h2>
+      </div>
+      <div class="container">
+				<div class="is-multiline">
+					<div class="center ">
+						<article  class="columns center article ">
+							<figure class="column is-3"> 
+                  <img src="img/Rectangle 2.png">
+              </figure>
+							<div class="column">
+								<div class="content">
+									<p class="subtitle is-size-5">
+										Voluptates quae sunt dolore in omnis nihil.<br>  Animi sapiente et assumenda recusandae a reiciendis aspernatur molestiae asperiores.<br>Magnam consectetur qui dolore at praesentium odio ut aperiam et. <br> Doloremque eveniet  eos sint suscipit consequatur.<br> Assumenda aliquam cupiditate excepturi.
+									</p>
+								</div>
+							</div>
+						</article>
+          </div>
+          <div class="center ">
+						<article class="columns center article-reverse">
+							<div class="column">
+								<div class="content">
+									<p class="subtitle is-size-5">
+										Voluptates quae sunt dolore in omnis nihil.<br>  Animi sapiente et assumenda recusandae a reiciendis aspernatur molestiae asperiores.<br>Magnam consectetur qui dolore at praesentium odio ut aperiam et. <br> Doloremque eveniet  eos sint suscipit consequatur.<br> Assumenda aliquam cupiditate excepturi.
+									</p>
+								</div>
+              </div>
+              <figure class=" column is-3"> 
+                <img src="img/Rectangle 3.png">
+              </figure>
+						</article>
+          </div><div class="center ">
+						<article class="columns center article">
+							<figure class=" column is-3"> 
+                  <img src="img/Rectangle 2-1.png">
+              </figure>
+							<div class="column">
+								<div class="content">
+									<p class="subtitle is-size-5">
+										Voluptates quae sunt dolore in omnis nihil.<br>  Animi sapiente et assumenda recusandae a reiciendis aspernatur molestiae asperiores.<br>Magnam consectetur qui dolore at praesentium odio ut aperiam et. <br> Doloremque eveniet  eos sint suscipit consequatur.<br> Assumenda aliquam cupiditate excepturi.
+									</p>
+								</div>
+							</div>
+						</article>
+          </div><div class="center ">
+						<article class="columns center article-reverse">
+							<div class="column">
+								<div class="content">
+									<p class="subtitle is-size-5">
+										Voluptates quae sunt dolore in omnis nihil.<br>  Animi sapiente et assumenda recusandae a reiciendis aspernatur molestiae asperiores.<br>Magnam consectetur qui dolore at praesentium odio ut aperiam et. <br> Doloremque eveniet  eos sint suscipit consequatur.<br> Assumenda aliquam cupiditate excepturi.
+									</p>
+								</div>
+              </div>
+              <figure class=" column is-3"> 
+                <img src="img/Rectangle 3-1.png">
+            </figure>
+						</article>
+          </div>
+				</div>
+			</div>
+    </section>
+    <!-- /.section -->
+    <!-- .footer -->
+    <footer class="footer columns"  style="background-color: #009DCC;">
+      <div class="column is-2">
+        <figure class="">
+          <img src="img/logo.png">
+        </figure>
+      </div>
+      <div class="column  is-6">
+        <div class="columns  is-multiline">
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Ergonomic
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Handmade
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Awesome
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Gorgeous
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Tasty
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Table
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Shoes
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            bacon
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Towels
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            shirt
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Table
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Shoes
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            bacon
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Towels
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            shirt
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Table
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Shoes
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            bacon
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Towels
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            shirt
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Table
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Shoes
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            bacon
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Towels
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            shirt
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Table
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Shoes
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            bacon
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            Towels
+          </div>
+          <div class="column is-2 has-text-weight-bold has-text-white">
+            shirt
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+  </body>
+</html>
